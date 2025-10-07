@@ -1,0 +1,120 @@
+/* ======================== ESTILOS GENERALES Y FONDO ======================== */
+body {
+    background-color: rgba(127, 255, 212, 0.418) !important;
+}
+
+.bg-light {
+    background-color: rgba(127, 255, 212, 0.418) !important;
+}
+/* ========Ajustes al carrusel===== */
+#carouselTortugas .carousel-item img {
+  max-width: 70%;    
+  max-height: 400px; 
+  margin: 0 auto;    
+  object-fit: cover;
+  border-radius: 10px; 
+}
+
+
+/* ======================== SECCIÓN HERO Y NAVEGACIÓN ======================== */
+
+
+.hero-section {
+    background: url(../img/pista1.jpg) center/cover no-repeat;
+    position: relative;
+    padding: 100px 0;
+    border-bottom: 5px solid #ffc107; /* Borde dorado para enmarcar */
+}
+
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* =====Navbar oscura con borde dorado =======*/
+.navbar {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    border-bottom: 2px solid #ffc107;
+}
+
+/* =====Estilo para los títulos de secciones======= */
+h1, h2, .navbar-brand {
+    font-family: 'Georgia', serif; 
+    color: #ffc107; /* Color dorado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+/* ======Botones con estilo de casino======== */
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #e0ac05;
+    color: #1a1a1a;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-success {
+    background-color: #991b1b; /* =====Rojo oscuro para apostar */
+    border-color: #7b1515;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* ======================== TARJETAS Y FORMULARIO ======================== */
+
+/* Estilo para las tarjetas de los competidores */
+.card {
+    background-color: rgba(40, 40, 40, 0.85); /* Fondo semitransparente oscuro */
+    border: 2px solid #ffc107;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+    color: #ffc107;
+}
+
+.card-text {
+    color: #cccccc;
+}
+
+/* Campos de formulario */
+.form-control {
+    background-color: #333;
+    border: 1px solid #ffc107;
+    color: #fff;
+}
+
+.form-label {
+    color: #ffc107;
+}
+
+/* Barra de progreso de aforo */
+.progress-bar {
+    background-color: #991b1b !important;
+}
+
+/* ======================== FOOTER Y MODAL ======================== */
+
+/* Estilo para el footer */
+footer {
+    background-color: #1a1a1a !important;
+    border-top: 2px solid #ffc107;
+}
+
+/* Íconos de redes sociales en el footer */
+footer .bi {
+    font-size: 1.5rem;
+    color: #ffffff;
+    
+}
